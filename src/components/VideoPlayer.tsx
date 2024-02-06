@@ -4,7 +4,7 @@ interface VideoProps {
     source: string | undefined
 }
 
-interface VideoPlayerRefProps {
+export interface VideoPlayerRefProps {
     play: () => void;
     pause: () => void;
     setVolume: (volume: number) => void;
